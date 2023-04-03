@@ -22,3 +22,4 @@ if __name__ == '__main__':
         print(main(*sys.argv[1:]))  # type: ignore
     else:
         print(main())  # type: ignore
+
