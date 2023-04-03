@@ -63,7 +63,7 @@ def validate_raw_tables(session):
     for tname in CUSTOMER_TABLES:
         print('{}: \n\t{}\n'.format(tname, session.table('RAW_CUSTOMER.{}'.format(tname)).columns))
 
-
+#updated
 # For local debugging
 if __name__ == "__main__":
     # Add the utils package to our path and import the snowpark_utils function
